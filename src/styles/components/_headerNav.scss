@@ -1,0 +1,36 @@
+.header__nav {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: $font-small;
+  font-family: $font-secondary;
+  font-weight: 300;
+  line-height: 1.68rem;
+  color: $color-light;
+
+  &--left {
+    span {
+      margin-left: 0.5rem;
+      &:not(:last-child) {
+        margin-right: 2rem;
+      }
+    }
+  }
+
+  &--right {
+    display: flex;
+    align-items: center;
+
+    span {
+      margin-right: 1rem;
+    }
+  }
+}
+
+.header__logo {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}

@@ -1,0 +1,19 @@
+.info-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4.8rem;
+  background-color: rgba(0, 0, 0, 0.24);
+  color: $color-light;
+  font-size: $font-small;
+  font-weight: 600;
+  font-family: $font-secondary;
+  line-height: 1.68rem;
+
+  &--top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+  }
+}

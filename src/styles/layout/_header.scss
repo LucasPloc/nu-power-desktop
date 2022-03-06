@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  height: 110vh;
+  transition: all 1s ease;
+  background-position: cover;
+  color: $font-primary;
+  font-family: sans-serif;
+  padding: 10rem 13.6rem;
+}

@@ -1,0 +1,20 @@
+.image-slogan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60rem;
+  background-image: url("../../images/image-slogan.jpg");
+  background-size: cover;
+  color: $color-light;
+
+  h2 {
+    span {
+      font-size: 4.8rem;
+      text-align: center;
+      display: block;
+      font-family: "Kelson";
+      font-weight: 400;
+      line-height: 7rem;
+    }
+  }
+}

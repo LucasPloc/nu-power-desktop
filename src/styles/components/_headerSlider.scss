@@ -1,0 +1,44 @@
+.header__slider {
+  position: absolute;
+  height: 0.1rem;
+  background-color: $color-light;
+  bottom: 13.5rem;
+  left: 0;
+  right: 0;
+  width: 100%;
+
+  &-btn {
+    position: absolute;
+    transform: translate(0, -50%);
+    background-color: $color-light;
+    color: $color-dark;
+    padding: 2rem 4rem;
+    border-radius: 3.2rem;
+    margin-left: 11.4rem;
+    font-size: $font-small;
+    z-index: 100;
+    transition: all 1s ease;
+  }
+  &-dot {
+    position: absolute;
+    height: 0.8rem;
+    width: 0.8rem;
+    border-radius: 50%;
+    background-color: $color-light;
+    transform: translate(0, -50%);
+
+    &-0 {
+      left: 15%;
+    }
+
+    &-1 {
+      left: 50%;
+    }
+    &-2 {
+      left: calc(50% + (50% / 2.3));
+    }
+    &-3 {
+      left: calc(50% + (50% / 2.3) + (50% / 2.3));
+    }
+  }
+}

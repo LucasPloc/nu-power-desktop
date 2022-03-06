@@ -1,0 +1,58 @@
+.offer {
+  display: flex;
+  justify-content: space-between;
+  min-height: 100vh;
+  padding-left: 27.6rem;
+  padding-right: 25.6rem;
+  padding-top: 19rem;
+  padding-bottom: 19rem;
+
+  &__left {
+    padding-top: 15rem;
+    img {
+      width: 40rem;
+      height: 58rem;
+
+      &:hover {
+        cursor: url("../../icons/circle.png") 15 15, auto;
+      }
+    }
+  }
+  &__right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    img {
+      margin-top: 12.8rem;
+      width: 42rem;
+      height: 56rem;
+      &:hover {
+        cursor: url("../../icons/circle.png") 15 15, auto;
+      }
+    }
+  }
+}
+
+.offer__title {
+  font-size: 6.4rem;
+  text-transform: uppercase;
+  line-height: 7.2rem;
+  font-family: "Kelson";
+  font-weight: 400;
+
+  span {
+    display: block;
+  }
+}
+
+.offer__description {
+  margin-top: 4.8rem;
+  font-size: 2rem;
+  line-height: 3.2rem;
+  color: #767676;
+  font-weight: 500;
+
+  span {
+    display: block;
+  }
+}

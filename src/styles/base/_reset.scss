@@ -1,0 +1,23 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #ffffff;
+  font-family: "Barlow", sans-serif;
+}
+
+@font-face {
+  font-family: "Kelson";
+  font-weight: 400;
+  src: url("../../fonts/kelson.woff") format("woff");
+}

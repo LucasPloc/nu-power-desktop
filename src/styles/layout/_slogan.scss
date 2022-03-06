@@ -1,0 +1,32 @@
+.slogan {
+  font-size: 9.6rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  white-space: nowrap;
+  overflow: hidden;
+  padding-bottom: 7.7rem;
+
+  &__first {
+    transform: translate(-50%);
+    animation: animateRight 20s linear infinite;
+  }
+  &__second {
+    transform: translate(-20%);
+    animation: animateLeft 20s linear infinite;
+  }
+
+  span {
+    line-height: 11.2rem;
+  }
+}
+
+@keyframes animateRight {
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes animateLeft {
+  to {
+    transform: translateX(-100%);
+  }
+}
